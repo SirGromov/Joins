@@ -1,0 +1,14 @@
+name: "Joins"
+main: "me.grom.joins.JoinsMain"
+version: "1.0"
+author: "SirGromov"
+description: "Setting your own join/leave messages!"
+website: "https://vk.com/sirgromov"
+permissions:
+  joins.change:
+    default: false
+commands:
+  change:
+    usage: "/change <join/leave>"
+    description: "Set you own join/leave message"
+    permission-message: "You dont have a permissions to perform this command!"
